@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name = "viewport" content = "width = device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre" rel="stylesheet">
+    <link href="./fv-css.css" rel="stylesheet" type="text/css"/>
     <title>Super WDI-45</title>
   </head>
 <header>
@@ -11,19 +12,23 @@
 </header>
 
   <body>
-    <h2>Categories</h2>
-    <nav>
-      <button>Candy</button>
-      <button>Cereal</button>
-      <button>Juice</button>
+    <div id = "categories">
+			<h1>Categories</h1>
+			<button id = "cereal"> Cereal </button>
+			<button id = "juice"> Juice </button>
+			<button id = "candy"> Candy </button>
+		</div>
 
-    </nav>
-<main>
-    <h2>Shopping Cart</h2>
-    <button>Add to Cart<button>
-    <button>Remove from Cart<button>
+    <div id = "grocery-items">
+    </div>
 
-</main>
+    <div id = "shopping cart">
+    <h2> Shopping Cart </h2>
+      <button id = "add to cart">Add to Cart </button>
+      <button id = "remove from cart"> Remove from Cart </button>
+    </div>
+<script src="./fv-app.js"></script>
+
   </body>
 </html>
 
