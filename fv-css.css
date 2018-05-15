@@ -1,3 +1,22 @@
 * {
   box-sizing: border-box;
 }
+.image-container{
+  width: 250px;
+  height: 210px;
+  overflow: hidden;
+}
+.image-container img {
+  max-width: 100%;
+
+}
+.image-container p {
+  position: relative;
+  top: -1em;
+  color: white;
+  font-size: 17px;
+  margin: 0;
+}
+.dairy, .produce, .toiletries {
+  display: none;
+}
